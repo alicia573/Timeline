@@ -72,6 +72,10 @@ footer{
     background-color: mediumpurple;
     color: white;
 }
+#link{
+    text-decoration: none;
+    color: white;
+}
 @media only screen and (max-width: 1024px) {
 
     .line{
