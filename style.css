@@ -1,0 +1,87 @@
+#wrapper{
+    margin: auto;
+}
+body{
+    background-color: white;
+}
+.title{
+    font-weight: bolder;
+    color: darkslateblue;
+    text-align: center;
+    font-size: 40px;
+}
+#column{
+    margin-top: 10%;
+    background-color: mediumpurple;
+    height: 100%;
+    white-space: pre-line;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#timeline{
+}
+.dot{
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    padding: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    color: white;
+    font-size: 30px;
+    font-family: BolsterBold,Serif;
+    white-space: pre-line;
+    border: 2px rgb(0 0 0) solid;
+    background-image: url("flower.jpg");
+}
+.year{
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+    float: right;
+    margin-right: 10%;
+    margin-top: -250px;
+}
+.line{
+    height: 300px;
+    width: 3px;
+    margin-top: -200px;
+    margin-right: 14%;
+    background: rgb(0 0 0);
+    float: right;
+}
+#reflectie{
+    font-size: 30px;
+    font-weight: bolder;
+    color:darkslateblue ;
+
+}
+#reflection{
+    margin-left: 10%;
+}
+#txt{
+    margin-bottom: 100px;
+    margin-right: 50px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    background-color: mediumpurple;
+    color: white;
+}
+@media only screen and (max-width: 1024px) {
+
+    .line{
+        height: 250px;
+        margin-top: -150px;
+    }
+    .year{
+        margin-top: -200px;
+    }
+    .dot{
+        font-size: 25px;
+    }
+}
